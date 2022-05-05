@@ -23,14 +23,14 @@ a{
     font-size: 17px;
     box-sizing: border-box;
     cursor: pointer;
-    line-height: 1.8;
-    background-color: #6c757d;
-    top: 0;
+    line-height: 2;
+    background-color: rgb(245,245,245);
     height: calc(100vh - 48px);
     overflow-x: hidden;
     overflow-y: auto;
     margin-top: 0;
-    padding-right: 30px;
+    padding-right: 10px;
+    padding-left: 20px; 
 }
 
 .content{
@@ -52,10 +52,38 @@ a{
     line-height: 1.4;
     margin-top: 20px;
     box-sizing: border-box;
-    border: 1px solid #dee2e6;
+    border: 2px solid #dee2e6;
     border-collapse: collapse;
     text-align: center;
     padding: 20px;
     text-decoration-line: none;
     
+}
+
+.bx{
+    font-size: 20px;
+
+}
+
+.form-group{
+    width: 98%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin: 10px;
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.btn-edit{
+    font-size: 16px;
+    margin: 10px;
 }
